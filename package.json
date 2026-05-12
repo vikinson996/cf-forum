@@ -1,0 +1,12 @@
+{
+  "name": "cf-forum",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "hono": "^4.6.0"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && echo OK > dist/index.html",
+    "deploy": "wrangler deploy"
+  }
+}

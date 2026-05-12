@@ -1,0 +1,7 @@
+name = "cf-forum"
+main = "src/index.ts"
+compatibility_date = "2025-05-01"
+
+[[kv_namespaces]]
+binding = "DB"
+id = "后面你填自己的KV ID"
